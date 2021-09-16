@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es-MX   ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas - Solución a problemas</title>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="main-wrapper">
+        <header id="main-header">
+            <div id="mainlogo"><img src="src/iconos/Huellita.png" alt="" width="100%"></div>
+            <div class="header">
+                <div id="title">
+                    <h1>Solución a problemas</h1>
+                </div>
+                <div id="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="#">Solución a problemas</a></li>
+                            <li><a href="about.html">Acerca de</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section>
+            <aside>
+                <h2>Temas</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#conectar">No se puede conectar a la base de datos</a></li>
+                        <li><a href="#guardar">Ocurrió un error al intentar guardar los cambios</a></li>
+                        <li><a href="#otros">Otros problemas</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <article id="conectar">
+                <header><h2>Al iniciar la aplicación se muestra el mensaje <b>"No se epuede conectar con el servidor, vuelva a intentarlo más tarde"</b></h2></header>
+                <ul>
+                    <li>
+                        <h3>Compruebe su conexión a internet</h3>
+                        <p>¿Puede navegar a su página web favorita?, si no es así lo más probable es que no tenga conexión a internet</p>
+                    </li>
+                    <li>
+                        <h3>Tengo conexión a internet pero el problema continua</h3>
+                        <p>
+                            Lo más probable es que Java no tenga los permisos para conectarse a internet. Abra el <b>Panel de Control de Java</b>, vaya a <b>General > Configuración de Red</b>, Y de los permisos a Java para que se comunique con el tipo de red a la que está conectado. cierre y vuelva a abrir la aplicación.
+                        </p>
+                    </li>
+                </ul>
+            </article>
+            <article #guardar>
+                <header><h2>Se muestra el mensaje <b>"Ocurrió un error al guardar los cambios"</b></h2></header>
+                <p>
+                    Verifique que no este intentando guardar texto demaciado grande o imágenes mayores a 1024 KB.
+                </p>
+            </article>
+            <article id="otros">
+                <header><h2>Otros problemas</h2></header>
+                <p>
+                    Para otros problemas favor de notificarlos al correo electrónico <a href="mailto:Daga400@outlook.com">daga400@outlook.com</a> o <a href="mailto:gasparhs400@gmail.com">gasparhs400@gmail.com</a>
+                </p>
+            </article>
+        </section>
+        <footer>
+            <header><h2>Versión</h2></header>
+            <img src="src/iconos/Huellita.png" alt="" width="50px" id="logo">
+            <p id="informacion">
+                <b>Versión: </b>2.0
+                <br>
+                <b>Fecha de compilación</b> 25 de Mayo del 2020
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

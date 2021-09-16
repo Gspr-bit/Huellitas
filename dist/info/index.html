@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es-MX   ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas - Ayuda</title>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="main-wrapper">
+        <header id="main-header">
+            <div id="mainlogo"><img src="../src/iconos/Huellita.png" alt="" width="100%"></div>
+            <div class="header">
+                <div id="title">
+                    <h1>Huellitas - Ayuda</h1>
+                </div>
+                <div id="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="troubleshooting.html">Solución a problemas</a></li>
+                            <li><a href="about.html">Acerca de</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section>
+            <aside>
+                <h2>Temas</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#comenzar">Para comenzar</a></li>
+                        <li><a href="#usuarios">Gestión de usuarios</a></li>
+                        <li><a href="#configuracion">Configuración</a></li>
+                        <li><a href="#animales">Gestión de animales</a></li>
+                        <li><a href="#notificaciones">Notificaciones</a></li>
+                        <li><a href="#otros">Otros temas</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <article id="comenzar">
+                <header></header><h2>Para comenzar</h2></header>
+                <!--Imagen pantalla inicio-->
+                <div style="text-align: center;"><img src="assets/Inicio.png" alt="" id="pantallaInicio"></div>
+                <p>
+                    Al iniciar aparecerá la <b>pantalla de inicio.</b> Para entrar pulse cualquier tecla o de click en el botón <b>"Entrar"</b>
+                </p>
+                <!--Imagen pantalla bienvenida-->
+                <img src="assets/Bienvenido.png" alt="">
+                <p>
+                    Al iniciar la aplicación por primera vez aparecerá la <b>pantalla de bienvenida</b>, para comenzar debe crear una cuenta, elija un nombre de usuario y una contraseña, estos no deben ser mayores a 20 carácteres y no pueden contener símbolos ni letras ñ. Ingrese el nombre de su organización, no debe ser mayor a 50 carácteres. Después suba el logotipo de su organización, el tamaño máximo para cualquier imagen es de 1024 KB. Cuando todo este listo pulse en el botón con la palomita.
+                </p>
+                <p>
+                    A continuación se abrira la <b>pantalla principal</b>
+                </p>
+                <!--Imagen pantalla principal-->
+                <img src="assets/Principal.png" alt="">
+                <p>
+                    Puede usar los menus de la parte superior para filtrar los resultados de la tabla, de igual manera puede escribir en el campo de texto para buscar animales por nombre.
+                </p>
+            </article>
+            <article id="usuarios">
+                <header><h2>Gestión de usuarios</h2></header>
+                <h3>Diferencia entre un usuario con privilegios de administrador y uno normal</h3>
+                <h4>Usuario común</h4>
+                <p>
+                    Un usuario común puede:
+                    <br>
+                    Ver, agregar, eliminar y modificar la información de cualquier animal en cualquier área.
+                    <br>
+                    Crear notificaciones, eliminarlas y marcarlas como leídas.
+                    <br>
+                    Cambiar su nombre de usuario y contraseña.
+                </p>
+                <h4 id="administrador">Administrador</h4>
+                <p>
+                    Un administrador puede hacer lo mismo que un usuario común y además puede:
+                    <br>
+                    Agregar nuevos usuarios y eliminar los ya existentes.
+                    <br>
+                    Acceder a la línea de comandos
+                </p>
+                <h3>Agregar usuarios</h3>
+                <p>
+                    Para agregar un nuevo usuario pulse en el botón con el icono <img src="../src/iconos/usuarios.png" alt="" width="20px" class="icono">, si el botón no aparece es debido a que no tiene privilegios de administrador, intente iniciando con una cuenta con permisos de administrador. Aparecerá el formulario <b>Modificar usuarios</b>.
+                </p>
+                <p>
+                    Pulse en el botón con el icono <img src="../src/iconos/add.png" alt="" class="icono">, se mostrará un <b>formulario</b> como el siguiente.
+                </p>
+                <img src="assets/Usuarios.png" alt="">
+                <p>
+                    Ingrese un nombre de usuario, debe ser uno que no este en uso, no debe contener símbolos ni "ñ" y debe ser menor a 50 carácteres.
+                    <br>
+                    Ingrese una contraseña, no debe contener símbolos ni "ñ" y debe ser menor a 50 carácteres.
+                    <br>
+                    Vuelva a escribir su contraseña
+                    <br>
+                    Seleccione la casilla si quiere que el usuario tenga permisos de <a href="#administrador">administrador</a> y presione el botón con el icono <img src="../src/iconos/check.png" alt="" class="icono">
+                </p>
+                <h3>Eliminar usuarios</h3>
+                <p>
+                    Para eliminar un usuario pulse en el botón con el icono <img src="../src/iconos/usuarios.png" alt="" class="icono">, si el botón no aparece es debido a que no tiene privilegios de <a href="#administrador">administrador</a>, intente iniciando con una cuenta con permisos de <a href="#administrador">administrador</a>. Aparecerá el formulario <b>Modificar usuarios</b>.
+                </p>
+                <p>
+                    Desde el menú seleccione el usuario que desea eliminar y pulse en el botón con el icono <img src="../src/iconos/rubbish.png" alt="" class="icono">, se mostrará un cuadro de diálogo para confirmar la accion, pulse <b>"ok"</b> y el usuario se eliminará.
+                </p>
+                <img src="assets/Usuarios.png" alt="">
+            </article>
+            <article id="configuracion">
+                <header><h2>Configuración</h2></header>
+                <p>
+                    Para cambiar su nombre de usuario o contraseña presione el icono <img src="../src/iconos/settings.png" alt="" class="icono">, aparecerá el formulario <b>Configuración</b>.
+                </p>
+                <img src="assets/Configuracion.png" alt="">
+                <p>
+                    Escriba su contraseña actual.
+                    <br>
+                    Ingrese una nueva contraseña, no debe contener símbolos ni "ñ" y debe ser menor a 50 carácteres.
+                    <br>
+                    Vuelva a escribir su nueva contraseña.
+                    <br>
+                    Si desea cambiar su nombre de usuario seleccione la casilla <b>"cambiar nombre de usuario"</b> e ingrese un nuevo nombre de usuario, debe ser uno que no este en uso, no debe contener símbolos ni "ñ" y debe ser menor a 50 carácteres. 
+                </p>
+            </article>
+            <article id="animales">
+                <header><h2>Gestión de animales</h2></header>
+                <h3>Agregar animales a "Albergue temporal", "Albergue permanente", "Extraviados" y "Encontrados"</h3>
+                <p>
+                    En el menú <b>"Mostrar en"</b> seleccione el área a donde quiere agregar el animal.
+                    <br>
+                    Pulse el botón <b>"Agregar nuevo"</b>. El formulario que aparecerá varia dependiendo del área seleccionada pero todos funcionan igual, el siguiente ejemplo es el de <b>Agregar al albergue temporal</b>:
+                </p>
+                <img src="assets/AgregarTemporal.png" alt="">
+                <p>
+                    Llene todos los campos solicitados. El formato de la <b>fecha</b> es <b>dd/mm/aaaa</b>. Para subir una foto pulse el botón <b>"Seleccionar foto"</b>, seleccione la foto que desea subir y pulse <b>"Abrir"</b>; el límite del tamaño de la foto es de 1024 KB.
+                    <br>
+                    Cuando todo este listo pulse el botón con el icono <img src="../src/iconos/check.png" alt="" class="icono">.
+                    <br>
+                    Se le preguntará si desea agregar un recordatorio de actualizar la información de ese animal, esto es útil si necesita estar actualizando su información periodicamente; ingrese el intervalo en meses en que desea recibir la notificación, si no quiere recibir ningun recordatorio ingrese 0.
+                </p>
+                <h3>Ver información de animales en "Albergue temporal", "Albergue permanente", "Extraviados", "Encontrados" y "Adoptados"</h3>
+                <p>
+                    Seleccione un registro de la <b>tabla</b> y luego pulse el botón <b>"Ver"</b>.
+                    <br>
+                    El formulario que aparecerá varia dependiendo del área seleccionada pero todos funcionan igual, el siguiente ejemplo es el de <b>Consultar del albergue permanente</b>:
+                </p>
+                <img src="assets/VerPermanente.png" alt="">
+                <p>
+                    Para cerrar la ventana pulse cualquiera de sus botones.
+                </p>
+                <h3>Modificar registros de animales</h3>
+                <p>
+                    Seleccione un registro de la <b>tabla</b> y luego pulse el botón <b>"Modificar"</b>.
+                    <br>
+                    El formulario que aparecerá varia dependiendo del área seleccionada pero todos funcionan igual, el siguiente ejemplo es el de <b>Modificar del albergue permanente</b>:
+                </p>
+                <img src="assets/ModificarPermanente.png" alt="">
+                <p>
+                    Cambie los campos que desea modificar, también puede seleccionar una nueva foto.
+                    <br>
+                    Algunos formularios incluyen botones como <b>"Enviar a albergue temporal", "Enviar a albergue permanente"</b>, entre otros. Si presiona alguno de estos botones los cambios se guardarán y el animal se enviará al área indicada.
+                    <br>
+                    Si solo desea modificar los datos pulse el botón con el icono <img src="../src/iconos/check.png" alt="" class="icono">.
+                </p>
+                <h3>Dar en adopción un animal</h3>
+                <p>
+                    Seleccione un registro de la <b>tabla</b> y luego pulse el botón <b>"Dar en adopción"</b>.
+                    <br>
+                    Se abrira el formulario <b>Adoptar</b>:
+                </p>
+                <img src="assets/DarEnAdopcion.png" alt="">
+                <p>
+                    Llene todos los campos solicitados. Para subir la credencial y comprobante de domicilio de click en sus respectivos botones. <b>No se permiten PDF</b>, los documentos deben estar en formato de imágen y deben pesar menos de 1024 KB cada uno.
+                    <br>
+                    Si quiere ver la información completa del animal a adoptar pulse el botón <b>"Ver información del animal"</b>.
+                    <br>
+                    Los teléfonos no deben contener símbolos ni espacios entre los números.
+                    <br>
+                    Si la información de la adopción también se va a guardar en papel ingrese en el campo <b>"Folio"</b> el número de folio del reporte.
+                    <br>
+                    Para guardar los datos pulse el botón con el icono <img src="../src/iconos/check.png" alt="" class="icono">.
+                </p>
+                <h3>Eliminar registros de animales</h3>
+                <p>
+                    Seleccione un registro de la <b>tabla</b> y luego pulse el botón <b>"Eliminar"</b>.
+                    <br>
+                    Se mostrará un cuadro de dialogo para confirmar la acción, pulse <b>"ok</b>.
+                    <br>
+                    El botón <b>"Regresar con su dueño"</b> tiene la misma función que el botón <b>"Eliminar</b>.
+                </p>
+            </article>
+            <article id="notificaciones">
+                <header><h2>Notificaciones</h2></header>
+                <p>
+                    Muchas notificaciones son agregadas automaticamente. Si hay notificaciones el ícono del botón <b>"notificaciones"</b> será <img src="../src/iconos/nuevaNotificacion.png" alt="" class="icono">, si no hay notificaciones el ícono será <img src="../src/iconos/notificacion.png" alt="" class="icono">.
+                </p>
+                <h3>Ver las notificaciones</h3>
+                <p>
+                    Pulse el botón <b>"notificaciones"</b>. Aparecerá una ventana como la siguiente.
+                </p>
+                <img src="assets/Notificaciones.png" alt="">
+                <h3>Diferencia entre <b>Marcar como leído</b> y <b>Eliminar</b></h3>
+                <p>
+                    Al seleccionar una notificación y luego pulsar <b>"Marcar como leído"</b> la notificación se ocultará y se mostrará la siguiente fecha que esté programada.
+                    <br>
+                    Al seleccionar una notificación y luego pulsar <b>"Eliminar"</b> la notificación nunca volverá a ser mostrada.
+                </p>
+                <h3>Agregar una notificación</h3>
+                <p>
+                    Si quiere recibir una notificación para recordarle hacer algo pulse el botón <b>"Agregar"</b>
+                    <br>
+                    Ingrese la fecha en que quiere recibirla por primera vez.
+                    <br>
+                    Si quiere que la notificación se repita seleccione la casilla <b>"Repetir"</b>, ingrese el intervalo, luego seleccione si su intervalo es en <b>dias, semanas o meses</b>. Si quiere que la notificación se muestre una sola vez omita este paso.
+                    <br>
+                    Escriba el mensaje que desea recibir y pulse el botón con el icono <img src="../src/iconos/check.png" alt="" class="icono">.
+                </p>
+            </article>
+            <article id="otros">
+                <header><h2>Otros temas</h2></header>
+                <h3>Acceder a la línea de comandos</h3>
+                <p>La línea de comandos es útil para realizar acciones que no tienen solución mediante la interfaz gráfica, tales pueden ser:</p>
+                <ul>
+                    <li>Restablecer la base de datos</li>
+                    <li>Corregir un error en la base de datos</li>
+                    <li>Cambiar el nombre y logotipo de la organización</li>
+                </ul>
+                <p>
+                    No se recomienda usar esta herramienta puesto que su mal uso puede dejar inutilizable la base de datos, usela solo si sabe lo que está haciendo. Para más información de como usar esta herramienta consulte los <a href="https://mariadb.com/kb/en/training-tutorials/">tutoriales de MariaDB</a>.
+                    <br>
+                </p>
+                <h4>Cambiar nombre y logotipo de la asociación</h4>
+                <p>
+                    Pulse el botón con el ícono <img src="../src/iconos/code.png" alt="" class="icono">. si el botón no aparece es debido a que no tiene privilegios de <a href="#administrador">administrador</a>, intente iniciando con una cuenta con permisos de administrador. se abrirá la siguiente ventana:
+                </p>
+                <!-- Imágen línea de comandos -->
+                <img src="assets/LineaDeComandos.png" alt="">
+                <p>Escriba el siguiente comando en el <b>cuadro de texto</b> y pulse <b>"Ejecutar"</b></p>
+                <code>TRUNCATE organizacion</code>
+                <p>Cierre la aplicación y vuelva a abrirla, se abrirá la ventana de <b>Bienvenida</b>, sus datos no se perderán.</p>
+            </article>
+        </section>
+        <footer>
+            <header><h2>Huellitas - Versión</h2></header>
+            <img src="../src/iconos/Huellita.png" alt="" width="50px" id="logo">
+            <p id="informacion">
+                <b>Versión: </b>2.0
+                <br>
+                <b>Fecha de compilación</b> 25 de Mayo del 2020
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
